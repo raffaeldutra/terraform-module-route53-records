@@ -4,7 +4,7 @@ variable "name" {
 }
 
 variable "registers" {
-  type = "string"
+  type = "list"
 }
 
 variable "zone_id" {
