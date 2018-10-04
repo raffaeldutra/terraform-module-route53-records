@@ -3,6 +3,10 @@ variable "name" {
   description = "A record to use in your zone"
 }
 
+variable "registers" {
+  type = "string"
+}
+
 variable "zone_id" {
   type        = "string"
   description = "The zone id used for this record"
